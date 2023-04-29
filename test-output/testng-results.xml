@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-25T12:14:02 EDT" name="Suite" finished-at="2023-04-25T12:14:26 EDT" duration-ms="23241">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@16414e40]" name="LoginErrorValidation" class="EAEnterprise.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@539d019]" name="submitOrder" class="EAEnterprise.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-04-25T12:14:02 EDT" name="Submit Order Test" finished-at="2023-04-25T12:14:25 EDT" duration-ms="22039">
+      <class name="EAEnterprise.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@539d019]" started-at="2023-04-25T12:14:03 EDT" name="launchApplication" finished-at="2023-04-25T12:14:08 EDT" duration-ms="4888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@539d019]" started-at="2023-04-25T12:14:08 EDT" name="submitOrder" data-provider="getData" finished-at="2023-04-25T12:14:12 EDT" duration-ms="3989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Qwerty12$, product=ZARA COAT 3, email=erpolat@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@539d019]" started-at="2023-04-25T12:14:12 EDT" name="closeBrowser" finished-at="2023-04-25T12:14:12 EDT" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@539d019]" started-at="2023-04-25T12:14:12 EDT" name="launchApplication" finished-at="2023-04-25T12:14:15 EDT" duration-ms="3674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@539d019]" started-at="2023-04-25T12:14:15 EDT" name="submitOrder" data-provider="getData" finished-at="2023-04-25T12:14:19 EDT" duration-ms="4012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Qwerty123$, product=ADIDAS ORIGINAL, email=erpolat2@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@539d019]" started-at="2023-04-25T12:14:19 EDT" name="closeBrowser" finished-at="2023-04-25T12:14:19 EDT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@539d019]" started-at="2023-04-25T12:14:19 EDT" name="launchApplication" finished-at="2023-04-25T12:14:24 EDT" duration-ms="4304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@539d019]" started-at="2023-04-25T12:14:24 EDT" name="OrderHistoryTest" finished-at="2023-04-25T12:14:24 EDT" depends-on-methods="EAEnterprise.tests.SubmitOrderTest.submitOrder" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@539d019]" started-at="2023-04-25T12:14:24 EDT" name="closeBrowser" finished-at="2023-04-25T12:14:25 EDT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- EAEnterprise.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2023-04-25T12:14:02 EDT" name="Error Validations Test" finished-at="2023-04-25T12:14:26 EDT" duration-ms="23241">
+      <class name="EAEnterprise.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@16414e40]" started-at="2023-04-25T12:14:02 EDT" name="launchApplication" finished-at="2023-04-25T12:14:08 EDT" duration-ms="5159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@16414e40]" started-at="2023-04-25T12:14:08 EDT" name="LoginErrorValidation" finished-at="2023-04-25T12:14:09 EDT" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@16414e40]" started-at="2023-04-25T12:14:09 EDT" name="closeBrowser" finished-at="2023-04-25T12:14:09 EDT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@16414e40]" started-at="2023-04-25T12:14:09 EDT" name="launchApplication" finished-at="2023-04-25T12:14:13 EDT" duration-ms="4001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@16414e40]" started-at="2023-04-25T12:14:13 EDT" name="ProductErrorValidation" finished-at="2023-04-25T12:14:26 EDT" duration-ms="12847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@16414e40]" started-at="2023-04-25T12:14:26 EDT" name="closeBrowser" finished-at="2023-04-25T12:14:26 EDT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- EAEnterprise.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>

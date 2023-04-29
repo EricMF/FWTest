@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-27T11:44:21 EDT" name="Surefire suite" finished-at="2023-04-27T11:45:06 EDT" duration-ms="45416">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@4b14c583]" name="LoginErrorValidation" class="EAEnterprise.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@1534f01b]" name="submitOrder" class="EAEnterprise.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@6e0dec4a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-04-27T11:44:21 EDT" name="Surefire test" finished-at="2023-04-27T11:45:06 EDT" duration-ms="45416">
+      <class name="EAEnterprise.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@1534f01b]" started-at="2023-04-27T11:44:44 EDT" name="launchApplication" finished-at="2023-04-27T11:44:48 EDT" duration-ms="4292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@1534f01b]" started-at="2023-04-27T11:44:48 EDT" name="submitOrder" data-provider="getData" finished-at="2023-04-27T11:44:52 EDT" duration-ms="4005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Qwerty12$, product=ZARA COAT 3, email=erpolat@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@1534f01b]" started-at="2023-04-27T11:44:52 EDT" name="closeBrowser" finished-at="2023-04-27T11:44:52 EDT" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@1534f01b]" started-at="2023-04-27T11:44:52 EDT" name="launchApplication" finished-at="2023-04-27T11:44:57 EDT" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@1534f01b]" started-at="2023-04-27T11:44:57 EDT" name="submitOrder" data-provider="getData" finished-at="2023-04-27T11:45:01 EDT" duration-ms="4008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Qwerty123$, product=ADIDAS ORIGINAL, email=erpolat2@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@1534f01b]" started-at="2023-04-27T11:45:01 EDT" name="closeBrowser" finished-at="2023-04-27T11:45:01 EDT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@1534f01b]" started-at="2023-04-27T11:45:01 EDT" name="launchApplication" finished-at="2023-04-27T11:45:05 EDT" duration-ms="3941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@1534f01b]" started-at="2023-04-27T11:45:05 EDT" name="OrderHistoryTest" finished-at="2023-04-27T11:45:06 EDT" depends-on-methods="EAEnterprise.tests.SubmitOrderTest.submitOrder" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:EAEnterprise.tests.SubmitOrderTest@1534f01b]" started-at="2023-04-27T11:45:06 EDT" name="closeBrowser" finished-at="2023-04-27T11:45:06 EDT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- EAEnterprise.tests.SubmitOrderTest -->
+      <class name="EAEnterprise.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@4b14c583]" started-at="2023-04-27T11:44:30 EDT" name="launchApplication" finished-at="2023-04-27T11:44:36 EDT" duration-ms="5161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@4b14c583]" started-at="2023-04-27T11:44:36 EDT" name="LoginErrorValidation" finished-at="2023-04-27T11:44:37 EDT" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@4b14c583]" started-at="2023-04-27T11:44:37 EDT" name="closeBrowser" finished-at="2023-04-27T11:44:37 EDT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@4b14c583]" started-at="2023-04-27T11:44:37 EDT" name="launchApplication" finished-at="2023-04-27T11:44:40 EDT" duration-ms="3591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@4b14c583]" started-at="2023-04-27T11:44:40 EDT" name="ProductErrorValidation" finished-at="2023-04-27T11:44:43 EDT" duration-ms="3099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:EAEnterprise.tests.ErrorValidationsTest@4b14c583]" started-at="2023-04-27T11:44:43 EDT" name="closeBrowser" finished-at="2023-04-27T11:44:43 EDT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- EAEnterprise.tests.ErrorValidationsTest -->
+      <class name="cucumber.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@6e0dec4a]" started-at="2023-04-27T11:44:21 EDT" name="setUpClass" finished-at="2023-04-27T11:44:21 EDT" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@25109608]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@6e0dec4a]" started-at="2023-04-27T11:44:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-27T11:44:30 EDT" duration-ms="9164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive Test of Submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce Web-site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@6e0dec4a]" started-at="2023-04-27T11:44:30 EDT" name="tearDownClass" finished-at="2023-04-27T11:44:30 EDT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNGTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
